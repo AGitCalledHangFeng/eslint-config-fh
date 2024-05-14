@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fh",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "eslint-config-fh",
   "main": "index.js",
   "author": "fh",
@@ -9,6 +9,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "eslint": ">= 5"
+    "eslint": ">=6.8.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/eslint-parser": "^7.23.10",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-vue": "^9.21.1",
+    "vue-eslint-parser": "^9.4.2"
   }
 }
