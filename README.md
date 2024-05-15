@@ -1,9 +1,13 @@
 # eslint-config-fh
 
+不支持eslint 9.0以上
+
 ## 手动接入
 
+最近eslint升级到了9.0版本，目前没做迁移改造，先固定一个9以下的版本进行手动接入
+
 ```bash
-npm install --save-dev eslint eslint-config-fh
+npm install --save-dev eslint@8.49.0 eslint-config-fh
 ```
 
 ## 项目配置
