@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fh",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "eslint-config-fh",
   "main": "index.js",
   "author": "fh",
